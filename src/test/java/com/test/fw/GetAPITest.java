@@ -61,7 +61,7 @@ public class GetAPITest extends BaseTest {
 		//Add assertion on Array
 		String id=JsonValidator.getValueByJPath(jo,"/data[2]/id");
 		System.out.println("data ID is -->"+id);
-		Assert.assertEquals(Integer.parseInt(id),6);
+		Assert.assertEquals(Integer.parseInt(id),4);
 
 		// All Headers	
 		Header[] header=chr.getAllHeaders();
